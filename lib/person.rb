@@ -25,6 +25,14 @@ class Person
         "all about the benjamins"
     end
 
+    def happiness=(happy_change)
+        @happiness = happy_change.clamp(0,10)
+    end
+
+    def hygiene=(hygiene_change)
+        @hygiene = hygiene_change.clamp(0,10)
+    end
+
 
 
 
