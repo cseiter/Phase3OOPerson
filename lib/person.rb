@@ -12,6 +12,15 @@ class Person
         @hygiene = 8
     end
 
+    def clean?
+        @hygiene > 7
+    end
+
+    def happy?
+        @happiness > 7
+    end
+
+
 
 
 
